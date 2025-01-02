@@ -29,7 +29,8 @@ conda env create -f environment.yml
 ├── evaluation.py // script for generting Pareto plots out of experimental results
 ├── model_factory.py
 ├── model_interface.py
-├── models // contains models and special architectures 
+├── results // output files (download link below)
+├── models // contains models and special architectures (download link below)
 │   ├── calibration
 │   │   └── temperature_scaling.py
 │   ├── cifar10
@@ -85,6 +86,8 @@ optional arguments:
 ```
 
 ### Results
+
+The used models can be downloaded [here](https://ruhr-uni-bochum.sciebo.de/s/R6FGr39LZaqHRPn) and need to be unpacked into the ```models``` folder in the root directory.
 
 The generated adversarial images and parsed json files can be downloaded [here](https://ruhr-uni-bochum.sciebo.de/s/pYrsmzVPOq040g6) and need to be unpacked into the root of the project.
 Then the main results in form of Pareto plots can be generated with the script ```evaluation.py```.
